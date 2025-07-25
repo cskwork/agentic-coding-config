@@ -18,4 +18,4 @@
 - Python use venv and test with venv
 - Keep test code minimal, follow Arrange-Act-Assert pattern.
 - Comments in Korean.
-- Tools and Agents will help.
+- Utilize tools and agents

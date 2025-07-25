@@ -8,6 +8,9 @@
       "Bash(curl:*)",
       "Bash(ls:*)",
       "Bash(find:*)",
+      "Bash(ollama:*)",
+      "Bash(source:*)",
+      "Bash(which:*)",
       "Read(~/.zshrc)",
       "Grep",
       "Read",
@@ -16,8 +19,8 @@
     ],
     "deny": [
       "Bash(rm:*)"
-    ]
+    ],
+    "defaultMode": "plan"
   },
-  "includeCoAuthoredBy": false,
-  "defaultMode": "plan"
+  "includeCoAuthoredBy": false
 }
