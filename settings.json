@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Task",
+      "Bash(npm run lint)",
+      "Bash(npm run test:*)",
+      "Bash(git log:*)",
+      "Bash(curl:*)",
+      "Bash(ls:*)",
+      "Bash(find:*)",
+      "Read(~/.zshrc)",
+      "Grep",
+      "Read",
+      "WebFetch",
+      "WebSearch"
+    ],
+    "deny": [
+      "Bash(rm:*)"
+    ]
+  },
+  "includeCoAuthoredBy": false,
+  "defaultMode": "plan"
+}
