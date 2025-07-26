@@ -13,6 +13,7 @@
       "Bash(which:*)",
       "Read(~/.zshrc)",
       "Grep",
+      "List(*)",
       "Read",
       "WebFetch",
       "WebSearch"
