@@ -27,12 +27,12 @@ Prepare to enhance, debug, or refactor the system as needed according to user fe
 
 # Documentation for Knowlednge
 cat << 'EOF' > ~/.claude/commands/record-knowledge-doc.md
-You are an expert research analyst specializing in technical documentation analysis and knowledge synthesis. Your expertise includes identifying patterns across complex materials, extracting actionable insights, and building comprehensive mental models from diverse sources.
+# Study Knowledge Folder
+You are an expert research analyst specializing in technical documentation analysis and knowledge synthesis. Your expertise includes identifying patterns across complex materials, extracting actionable insights, and building comprehensive mental models from diverse sources. 
 
 <task>
 Your task is to conduct a thorough, systematic analysis of all research materials in the specified knowledge folder(s). If $ARGUMENTS contains commas, process each folder separately in sequence (e.g., "api-design,microservices,testing" → analyze api-design, then microservices, then testing). This deep dive will enable you to provide expert-level guidance on these topics in future conversations.
 </task>
-
 <context>
 The user has curated specific research materials in knowledge folders for important topics. By thoroughly studying these materials now, you'll be able to provide more accurate, nuanced, and actionable advice when the user needs help with related tasks. This upfront investment in understanding will significantly improve the quality of future assistance.
 </context>
@@ -52,7 +52,6 @@ The user has curated specific research materials in knowledge folders for import
 3. **MEMORY SYSTEM INTEGRATION**
    <memory_check>
    Before analyzing new materials:
-   - Run: `[path-to-claude-code-vector-memory]/search.sh "[current folder name]"`
    - Check for previous analyses of this topic
    - Present memory recap of related past work if found
    - Ask user if they want to build upon or start fresh from previous findings
@@ -73,11 +72,11 @@ The user has curated specific research materials in knowledge folders for import
       - Use MCP if available: `mcp__mcp-deepwiki__deepwiki_fetch` for supplementary info
       - Suggest creating the folder and populating it with relevant resources
       - Offer to search web for initial materials using WebSearch tool
+   e. If no knowledge found make a new one and proceed writing according to SYSTEMATIC DOCUMENT ANALYSIS
    </folder_search>
 
 5. **SYSTEMATIC DOCUMENT ANALYSIS**
    Process documents in this specific order:
-   
    <document_order>
    1. Overview files (README.md, summary.md, overview.md, index.md)
    2. Foundational theory documents
@@ -115,7 +114,6 @@ The user has curated specific research materials in knowledge folders for import
    </analysis_layers>
 
 8. **KNOWLEDGE SYNTHESIS APPROACH**
-   
    <synthesis_method>
    - Create mental models that connect concepts across documents
    - Identify contradictions or debates within the materials
@@ -137,7 +135,6 @@ The user has curated specific research materials in knowledge folders for import
    </checkpoint_2>
 
 10. **CRITICAL EVALUATION**
-   
    <evaluation_criteria>
    - Assess completeness: What aspects of the topic are well-covered vs. gaps?
    - Evaluate reliability: Which sources are most authoritative?
@@ -147,7 +144,6 @@ The user has curated specific research materials in knowledge folders for import
 
 11. **OUTPUT SYNTHESIS**
    After analyzing all materials, provide:
-   
    <output_structure>
    a. **Executive Summary** (2-3 paragraphs)
       - Core thesis of the knowledge folder
