@@ -22,5 +22,8 @@
     ],
     "defaultMode": "plan"
   },
+  "env": {
+    "BASH_DEFAULT_TIMEOUT_MS": "60000"
+  },
   "includeCoAuthoredBy": false
 }
