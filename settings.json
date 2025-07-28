@@ -19,7 +19,9 @@
       "WebSearch"
     ],
     "deny": [
-      "Bash(rm:*)"
+      "Bash(rm:*)",
+      "Read(application.yml)",
+      "Read(**/application.yml)"
     ],
     "defaultMode": "plan"
   },
