@@ -15,6 +15,6 @@
 - Simple to EXTEND (flexible plugin architecture)
 - Production ready (proper error handling, configuration)
 - Plan First, Implement after Confirmation.
-- Python use venv and test with venv
+- Python use uv for package management
 - Keep test code minimal, follow Arrange-Act-Assert pattern.
 - Comments in Korean.
