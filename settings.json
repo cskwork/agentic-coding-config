@@ -8,6 +8,10 @@
       "Bash(curl:*)",
       "Bash(ls:*)",
       "Bash(find:*)",
+      "Bash(cd:*)",
+      "Bash(mv:*)",
+      "Read",
+      "Bash(find:*)",
       "Bash(ollama:*)",
       "Bash(source:*)",
       "Bash(which:*)",
@@ -22,11 +26,21 @@
       "Bash(rm:*)",
       "Read(application.yml)",
       "Read(**/application.yml)"
+      "Bash(rm -rf:*)",
+      "Bash(sudo:*)",
+      "Bash(chmod 777:*)",
+      "Bash(chown:*)",
+      "Bash(dd:*)",
+      "Bash(mkfs:*)",
+      "Bash(fdisk:*)",
+      "Bash(format:*)",
+      "Bash(del /f /s /q:*)",
+      "Bash(rmdir /s /q:*)"
     ],
     "defaultMode": "plan"
   },
   "env": {
-    "BASH_DEFAULT_TIMEOUT_MS": "60000"
+    "BASH_DEFAULT_TIMEOUT_MS": "30000"
   },
   "includeCoAuthoredBy": false
 }
