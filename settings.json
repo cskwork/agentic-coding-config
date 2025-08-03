@@ -25,7 +25,7 @@
     "deny": [
       "Bash(rm:*)",
       "Read(application.yml)",
-      "Read(**/application.yml)"
+      "Read(**/application.yml)",
       "Bash(rm -rf:*)",
       "Bash(sudo:*)",
       "Bash(chmod 777:*)",
