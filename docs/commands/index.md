@@ -4,11 +4,11 @@
 
 ## 📋 명령어 목록
 
-### 🔍 [Code Review Full](./code-review-full)
+### 🔍 [Code Review Full](code-review-full)
 - **용도**: 전체 코드베이스에 대한 종합적인 리뷰
 - **특징**: 코드 품질, 보안, 성능 등 다각도 분석
 
-### 📁 [Organize All Files](./organize-all-files)
+### 📁 [Organize All Files](organize-all-files)
 - **용도**: 프로젝트 파일들의 체계적인 정리
 - **특징**: 파일 구조 최적화 및 정리
 

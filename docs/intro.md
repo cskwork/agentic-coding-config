@@ -8,9 +8,9 @@ Claude Code Setup 문서에 오신 것을 환영합니다!
 
 ### 주요 섹션
 
-- **[Knowledge Base](./knowledge/index)**: Claude Code, MCP, RAG에 대한 상세한 기술 문서
-- **[Agents](./agents/index)**: 다양한 전문 에이전트들의 구성과 사용법
-- **[Commands](./commands/index)**: 자동화된 명령어와 워크플로우
+- **[Knowledge Base](knowledge/index)**: Claude Code, MCP, RAG에 대한 상세한 기술 문서
+- **[Agents](agents/index)**: 다양한 전문 에이전트들의 구성과 사용법
+- **[Commands](commands/index)**: 자동화된 명령어와 워크플로우
 
 ## 📖 문서 구조
 
