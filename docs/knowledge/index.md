@@ -4,19 +4,19 @@ Claude Code와 관련 기술들에 대한 종합적인 지식 베이스입니다
 
 ## 📚 주요 섹션
 
-### 🔧 [Claude Code](./claude-code/README)
+### 🔧 [Claude Code](claude-code/README)
 Claude Code의 아키텍처, 기능, 활용법에 대한 상세한 문서
 - **아키텍처 개요**: 시스템 구조와 핵심 컴포넌트
 - **종합 분석**: 상세한 기능 분석과 사용 사례
 - **빠른 참조**: 자주 사용하는 명령어와 설정
 
-### 🔗 [MCP (Model Context Protocol)](./mcp/README)
+### 🔗 [MCP (Model Context Protocol)](mcp/README)
 AI 모델과의 효율적인 통신을 위한 프로토콜
 - **프로토콜 이해**: MCP의 핵심 개념과 구조
 - **종합 분석**: 실제 구현과 활용 방법
 - **빠른 참조**: 주요 API와 설정 가이드
 
-### 🧠 [RAG (Retrieval Augmented Generation)](./retrieval-augmented-generation/README)
+### 🧠 [RAG (Retrieval Augmented Generation)](retrieval-augmented-generation/README)
 검색 증강 생성 기술의 이해와 구현
 - **기술 개요**: RAG의 기본 원리와 장점
 - **의사결정 프레임워크**: 적용 시점과 방법 결정
