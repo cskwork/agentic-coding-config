@@ -66,7 +66,7 @@ pnpm add -g @benborla29/mcp-server-mysql@2.0.0
  claude mcp add -s user mcp_server_mysql \
    -e MYSQL_HOST="127.0.0.1" \
    -e MYSQL_PORT="3306" \
-   -e MYSQL_USER="aidt_owner" \
+   -e MYSQL_USER="user_name" \
    -e MYSQL_PASS="your_password" \
    -e MYSQL_DB="sso2" \
    -e MYSQL_SSL="false" \
