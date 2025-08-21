@@ -13,7 +13,7 @@ claude mcp add -s user --transport http github https://api.githubcopilot.com/mcp
 
 
 ## Atlassian MCP
-claude mcp add -s user --transport sse --scope local atlassian https://mcp.atlassian.com/v1/sse
+claude mcp add -s user --transport sse atlassian https://mcp.atlassian.com/v1/sse
 npx -y mcp-remote https://mcp.atlassian.com/v1/sse
 #### Note: If this command doesn't work due to a version-related issue, try specifying an older version of mcp-remote. The example below uses version 0.1.13, but you may use another version if needed:
 npx -y mcp-remote@0.1.13 https://mcp.atlassian.com/v1/sse
@@ -22,6 +22,7 @@ npx -y mcp-remote@0.1.13 https://mcp.atlassian.com/v1/sse
   "atlassian": {
     "command": "npx",
     "args": ["-y", "mcp-remote", "https://mcp.atlassian.com/v1/sse"]
+  }
 }
 
 
@@ -54,3 +55,22 @@ npx -y mcp-remote@0.1.13 https://mcp.atlassian.com/v1/sse
     }
   }
 }
+
+
+## Install MYSQL MCP
+#### Using npm
+npm install -g @benborla29/mcp-server-mysql@2.0.0
+#### Using pnpm
+pnpm add -g @benborla29/mcp-server-mysql@2.0.0
+# claude mcp remove "mcp_server_mysql" -s user
+ claude mcp add -s user mcp_server_mysql \
+   -e MYSQL_HOST="127.0.0.1" \
+   -e MYSQL_PORT="3306" \
+   -e MYSQL_USER="aidt_owner" \
+   -e MYSQL_PASS="your_password" \
+   -e MYSQL_DB="sso2" \
+   -e MYSQL_SSL="false" \
+   -e ALLOW_INSERT_OPERATION="false" \
+   -e ALLOW_UPDATE_OPERATION="false" \
+   -e ALLOW_DELETE_OPERATION="false" \
+   -- npx @benborla29/mcp-server-mysql
