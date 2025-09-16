@@ -1,0 +1,61 @@
+model = "gpt-5-codex"
+model_reasoning_effort = "medium"
+
+[mcp_servers.mcp-obsidian]
+command = "uvx"
+args = ["mcp-obsidian"]
+env = { "OBSIDIAN_API_KEY" = "6ecb98e1f27d4b5288e60bdcda5d4b8281803fd57edb8535b946f406d852e383", "OBSIDIAN_HOST" = "127.0.0.1", "OBSIDIAN_PORT" = "27124" }
+
+[mcp_servers.atlassian]
+command = "npx"
+args = ["-y", "mcp-remote", "https://mcp.atlassian.com/v1/sse"]
+
+[mcp_servers.context7]
+command = "npx"
+args = ["-y", "mcp-remote", "https://mcp.context7.com/mcp"]
+
+[projects."/Users/chaeseong-gug/Documents/PARA/Project/Git/AIDT/aidt-viewer-api"]
+trust_level = "trusted"
+
+[projects."/Users/chaeseong-gug/Documents/PARA/Project/Git/AIDT/aidt-lms-api"]
+trust_level = "trusted"
+
+[projects."/Users/chaeseong-gug/Documents/PARA/Project/Git/AIDT/database-dump"]
+trust_level = "trusted"
+
+[projects."/Users/chaeseong-gug/Documents/PARA/Project/Chatbot/rule-chatbot"]
+trust_level = "trusted"
+
+[projects."/Users/chaeseong-gug/Documents/PARA/Project/Git/AIDT"]
+trust_level = "trusted"
+
+[projects."/Users/chaeseong-gug/Documents/PARA/Project/Git/AIDT/aidt-documentation"]
+trust_level = "trusted"
+
+[projects."/Users/chaeseong-gug/Documents/PARA/Project/Github/Tools/AI-Agents"]
+trust_level = "trusted"
+
+[projects."/Users/chaeseong-gug/Documents/PARA/Project/Git/AIDT/aidt-bo-api"]
+trust_level = "trusted"
+
+[projects."/Users/chaeseong-gug/Documents/PARA/Project/Git/AIDT/aidt-demo"]
+trust_level = "trusted"
+
+[projects."/Users/chaeseong-gug/Documents/PARA/Project/Git/AIDT/mat-aidt-lms-api"]
+trust_level = "trusted"
+
+[projects."/Users/chaeseong-gug/Documents/PARA/Project/Git/AIDT/aidt-bo-was"]
+trust_level = "trusted"
+
+[projects."/Users/chaeseong-gug/Documents/PARA/Project/Github/Tools"]
+trust_level = "trusted"
+
+[projects."/Users/chaeseong-gug/Documents/PARA/Project/Git/AIDT/aidt-lcms-was"]
+trust_level = "trusted"
+
+[projects."/Users/chaeseong-gug/Documents/PARA/Project/Git/AIDT/aidt-batch"]
+trust_level = "trusted"
+
+
+
+
