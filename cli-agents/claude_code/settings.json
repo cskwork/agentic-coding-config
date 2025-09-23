@@ -42,5 +42,9 @@
   "env": {
     "BASH_DEFAULT_TIMEOUT_MS": "30000"
   },
+  "statusLine": {
+    "type": "command",
+    "command": "npx -y @owloops/claude-powerline@latest --style=powerline"
+  },
   "includeCoAuthoredBy": false
 }
